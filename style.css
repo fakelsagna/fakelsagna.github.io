@@ -9,6 +9,7 @@
   left: 5%;
   background-image: url("images/button1.png");
   background-size: 100% 100%;
+  background-color: #cf0300;
 }
 
 #button2 {
@@ -16,5 +17,6 @@
   right: 5%;
   background-image: url("images/button2.png");
   background-size: 100% 100%;
+  background-color: #cf0300;
 }
 /**/
