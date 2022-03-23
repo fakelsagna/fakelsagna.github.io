@@ -1,15 +1,7 @@
-//fart and shart players
-function playFart() {
-rand = Math.floor(Math.random() * 3) + 1;
-  
-  var file = "audio/farts/fart" + rand + ".mp3";
-  
-  new Audio(file).play();
+function fartsmella() {
+  window.location.href = "https://fart-sh.art/fartsmella";
 }
-function playShart(rand) {
-  rand = Math.floor(Math.random() * 3) + 1;
-  
-  var file = "audio/sharts/shart" + rand + ".mp3";
-  
-  new Audio(file).play();
+
+function fartboard() {
+  window.location.href = "https://fart-sh.art/fartboard";
 }

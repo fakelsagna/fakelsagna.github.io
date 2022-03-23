@@ -1,22 +1,33 @@
-.button {
-  position: absolute;
-  width: 40%;
-  top: 10%;
-  padding-top: 40%;
-}
-#button1 {
-  position: absolute;
-  left: 5%;
-  background-image: url("images/button1.png");
-  background-size: 100% 100%;
-  background-color: #cf0300;
+topbar {
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #00000077;
+  color: #6bcd0a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: center;
 }
 
-#button2 {
-  position: absolute;
-  right: 5%;
-  background-image: url("images/button2.png");
-  background-size: 100% 100%;
-  background-color: #cf0300;
+.redirectbutton {
+  background-color: #107c0e ;
+  color: #fff;
+  width: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-/**/
+
+#fartsmella {
+  position: absolute;
+  top: 130px;
+  right: 20%;
+}
+#fartboard {
+  position: absolute;
+  top: 130px;
+  left: 20%;
+}
