@@ -31,3 +31,8 @@ topbar {
   top: 130px;
   left: 20%;
 }
+body {
+  background-image: url("fart mongus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
