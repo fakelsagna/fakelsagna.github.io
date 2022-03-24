@@ -1,1 +1,1 @@
-window.location.replace("https://fart-sh.art");
+window.location.href = "https://fart-sh.art";
