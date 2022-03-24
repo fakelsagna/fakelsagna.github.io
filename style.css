@@ -1,39 +1,50 @@
 topbar {
   position:absolute;
-  top: 0px;
+  top: 0%;
   right: 0px;
   width: 100%;
-  height: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  background-color: #000000;
+  height: 14vw;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  background-color: #00000000;
+  background-image: url("fart-shart.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   color: #6bcd0a;
   font-size: 3.5vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   text-align: center;
+  background-position: center top;
 }
 
 .redirectbutton {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #107c0e ;
   color: #fff;
-  width: 25%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  width: 25vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
   font-weight: 750;
   font-size: 2.5vw;
+  border-radius: 3vw 3vw 3vw 3vw;
+  border: 0.2vw solid white;
+}
+
+.redirectbutton::hover {
+  width: 25.2vw;
+  background-color: #085607
 }
 
 #fartsmella {
   position: absolute;
-  top: 130px;
-  right: 20%;
+  top: 17vw;
+  right: 37.5vw;
 }
 #fartboard {
   position: absolute;
-  top: 130px;
-  left: 20%;
+  top: 26vw;
+  left: 37.5vw;
 }
 body {
   background-image: url("fart mongus.jpg");
